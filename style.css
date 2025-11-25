@@ -1,0 +1,97 @@
+/* Background */
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Main white card */
+.container {
+    width: 600px;
+    background: white;
+    margin: auto;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.1);
+}
+
+/* Title + Badge */
+.title-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    color: #333;
+}
+
+.badge {
+    background: #f06265;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+/* Info row */
+.info-row {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.info-row span {
+    margin-right: 20px;
+}
+
+/* Section Headings */
+h2 {
+    margin-top: 30px;
+    padding-left: 12px;
+    border-left: 4px solid #ff4c4c;
+    color: #333;
+}
+
+
+/* Ingredient List */
+.ingredients-list {
+    list-style: none;
+    padding: 0;
+}
+
+.ingredients-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eaeaea;
+    color: #444;
+}
+.Highlight {
+    background-color: yellow;
+}
+
+/* Instructions */
+.instructions-list li {
+    margin: 10px 0;
+    line-height: 1.6;
+    
+}
+
+/* Tip Box */
+.tip-box {
+    background: #e7f4ff;
+    padding: 12px 18px;
+    border-left: 4px solid #1e90ff;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+        background-color:pink ;
+    }
+}
